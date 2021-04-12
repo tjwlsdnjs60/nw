@@ -1,0 +1,119 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+img{
+    width : 30%;
+}
+
+
+.profile-img{
+    background-color:black;
+    height : 300px;
+}
+
+.profile-img > div{
+    width : 200px;
+    height : 200px;
+    margin : 0 auto;
+    padding: 50px 0;
+}
+
+.profile-img > div img{
+    border-radius: 50%;
+    width: 125%;
+}
+
+.profile-info{
+    text-align : center;
+    margin : 50px auto;
+    width : 220px;
+}
+
+.profile-info h1{
+    margin-bottom : 50px;
+}
+
+.profile-info li{
+    font-size:20px;
+    text-align: left;
+    background : url("/images/list.jpg") no-repeat;
+    background-size:30px auto;
+    padding-left : 30px;
+    margin: 10px 0;
+}
+
+.profile-like{
+    background-color: #ddd;
+    padding : 50px 0;
+    text-align : center;
+    margin : 0 auto;
+}
+
+.profile-like h2{
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.profile-like li{
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.profile-like span{
+    display: block;
+}
+
+.profile-keyword{
+    text-align : center;
+    margin : 50px auto;
+    width : 220px;
+    padding : 50px 0;
+}
+
+.profile-keyword h3{
+    margin-bottom : 50px;
+    font-size: 32px;
+}
+
+.profile-keyword li{
+    font-size:20px;
+    text-align: left;
+    background : url("/images/list.jpg") no-repeat;
+    background-size:30px auto;
+    padding-left : 30px;
+    margin: 10px 0;
+}
+
+.profile-mymusic{
+    background-color: #ddd;
+    padding : 50px 0;
+    text-align : center;
+    margin : 0 auto;
+}
+
+.profile-mymusic h4{
+    margin-bottom : 50px;
+    font-size: 32px;
+
+}
+
+.profile-mymusic li{
+    font-size:20px;
+    text-align: center;   
+}
+
+.profile-last li{
+    background-color: #ddd;
+    color : black;
+    text-align : center;
+    font-size:24px;
+    margin-bottom: 50px;
+    padding : 50px 0;
+    margin : 0 auto;   
+}
